@@ -1,0 +1,430 @@
+/*
+    Autuer: troy van sleeuwen, Romeo Vos, Luuk Vesters
+    Aanmaakdatum: October 06 2021
+    opdracht
+*/
+
+
+::-webkit-scrollbar 
+{
+    width: 10px;
+}
+html 
+{
+    scrollbar-width: thin;
+    overflow-x: hidden;
+    background-color: #d4d4d4;
+    margin-bottom: 0;
+}
+body{
+    min-height: 100vh;
+}
+figcaption{
+    margin: 0;
+    min-width: 10px;
+    max-width: 200px;
+}
+
+/* 
+    index
+*/
+
+
+
+
+
+/* 
+    about
+*/
+#about
+{
+    background-color: #d4d4d4;
+
+}
+
+#about img
+{
+    width: 999px;
+    margin-left: 250px;
+}
+
+#about p
+{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+
+
+
+/* 
+    finance
+*/
+#finance
+{
+    background-color: rgb(212, 212, 212);
+}
+#finance>h1
+{
+    text-align: center;
+}
+
+#image-center
+{
+    display: block;
+    margin-top: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+}
+.player
+{
+    float: left;
+    margin-left: 6.4vw;
+    margin-right: 6.4vw;
+}
+#players{
+    display: flex;
+    justify-content: center;
+}
+
+/*news*/
+
+/* lettertype roboto wordt toegevoegd */
+@font-face 
+{
+    font-family: robotoBold;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+/* veranderd de achtegrond kleur*/
+#news
+{
+    background-color: rgb(212, 212, 212);
+}
+
+/* zet de tekst op de goede plaats en hoe ver de tekst doorloopt */
+#newsText1
+{
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* zet de tekst op de goede plaats en hoe ver de tekst doorloopt */
+#newsText2
+{
+    width: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* zet de tekst op de goede plaats en hoe ver de tekst doorloopt */
+#newsText3
+{
+    width: 770px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* zet de titel op de goede plaats en hoe ver de tekst doorloopt */
+#newsTitle1
+{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* zet de titel op de goede plaats en hoe ver de tekst doorloopt */
+#newsTitle2
+{
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* zet de titel op de goede plaats en hoe ver de tekst doorloopt */
+#newsTitle3
+{
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* zet de afbeeldingen op de goede plaatsen en veranderd de grootte */
+#news1, #news2
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+/* veranderd de zin waar de href in staat naar bold en een andere grootte */
+#ref
+{
+    font-weight: bold;
+    font-size: 12px;
+}
+/* veranderd de kleur van de href tijdens verschillende functies */
+a:visited
+{
+    color:black ;
+}
+
+a:link
+{
+    color:black ;
+}
+
+a:hover
+{
+    color:rgb(255, 0, 0);
+}
+/* zet de h1 in het midden en geeft het een ander lettertype*/
+#newsTitle
+{
+    text-align: center;
+    font-family: robotoBold;
+    font-size: 40px
+}
+
+
+
+/* 
+    partners
+*/
+ 
+
+#alienware
+{
+    float: left;
+    width: 150px;
+    height: 100px;
+   
+}
+
+#verizon
+{
+    float: left;
+    width: 120px;
+    height: 133px;
+    margin-left: -119.9px;
+    margin-right: 0px;
+    
+}
+
+#monster
+{
+    float: left;
+    width: 100px;
+    height: 90px;
+    margin-right: 47px;
+    
+}
+
+#sap
+{
+    
+   float: left;
+   width: 110px;
+   height: 100px;
+   margin-right: 38px;
+}
+
+#honda
+{
+    
+   float: left;
+   width: 120px;
+   height: 100px;
+   margin-right: 30px;
+}
+
+#imc
+{
+    float: left;
+    width: 120px;
+    height: 100px;
+    margin-right: 33px;
+}
+
+#twitch
+{
+    float: left;
+    width: 130px;
+    height: 80px;
+    margin-right: 27px;
+    
+}
+
+#jersymike
+{
+    float: left;
+    width: 120px;
+    height: 75px;
+    margin-right: 37px;
+}
+
+#kingston
+{
+    float: left;
+    width: 120px;
+    height: 100px;
+    margin-right: 37px;
+}
+
+#hyperx
+{
+    float: left;
+    width: 120px;
+    height: 100px;
+    margin-left: -119.9px;
+    margin-right: 0px;
+}
+
+#huya
+{
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin-right: 36px;
+}   
+
+#secretlab
+{
+    float: left;
+    width: 120px;
+    height: 75px;
+    margin-right: 38px;
+}
+
+
+
+
+#partners
+{
+    background-color: #d4d4d4;
+}
+
+#partners>p
+{
+    background-color: #dedede;
+    outline-style: solid;
+    outline-width: 0.05cm;
+}
+
+#partners
+{
+
+}
+
+/* 
+    socialLinks
+*/
+.links{
+    width: 100vw;
+}
+#iframe-sl{
+    width: 100vw;
+    height: 302px;
+    border: 0px;
+    margin-bottom: 0;
+}
+#sociallinks{
+    position: relative;
+    vertical-align: bottom;
+    background-color: #555555;
+    height: 302px;
+}
+#sociallinks > ul 
+{
+    list-style: none;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+#sociallinks > ul > li
+{
+    list-style: none;
+    float: left;
+    padding: 0;
+    align-items: center;
+    height:100%;
+    display: flex;
+    justify-content: center;
+}
+#sociallinks > img{
+    display: block;
+    margin: 0 auto 0 auto;
+    height: 200px;
+}
+/* 
+    navbar
+*/
+body
+{
+    margin: 0;
+}
+#nav-bar 
+{
+    position: relative;
+    border: 0px;
+    width: 100vw;
+    left:   0px;
+    top:    0px;
+    height: 65px;
+    z-index:999;
+}
+#navbar
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+#navbar > ul 
+{
+    list-style: none;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    background-color: #444444;
+    border-bottom: 5px solid black;
+}
+#navbar > ul > li
+{
+    float: left;
+    width:13vw;
+    align-items: center;
+    height:100%;
+}
+#navbar > ul > li > a
+{
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    text-decoration: none;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#navbar > ul > li > a:hover, #navbar > ul > li > a:focus
+{
+    background-color: #aaaaaa;
+}
+
+#navbar > ul > li > a > img
+{
+    min-width: 148px;
+    min-height: 60px;
+}
